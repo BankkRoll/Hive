@@ -1,0 +1,20 @@
+# Robots.txt for Hive
+
+User-agent: *
+Allow: /
+
+# Private sections - disallow crawling
+Disallow: /messages/
+Disallow: /settings/
+Disallow: /notifications/
+Disallow: /wallet/
+Disallow: /analytics/
+Disallow: /onboarding/
+Disallow: /api/
+
+# Allow profile pages (individual profiles control via meta noindex)
+Allow: /@
+Allow: /profile/
+
+# Sitemap (if implemented)
+# Sitemap: https://your-domain.com/sitemap.xml

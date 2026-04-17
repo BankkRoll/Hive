@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx convex dev:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:better-auth.com)"
+    ]
+  }
+}
